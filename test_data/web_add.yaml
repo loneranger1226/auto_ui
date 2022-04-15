@@ -16,4 +16,4 @@
 -
   common:
     <<: *common
-  text: 刘德华
+  text: 开发完毕
