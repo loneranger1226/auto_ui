@@ -286,3 +286,11 @@ Backtrace:
 	RtlGetAppContainerNamedObjectPath [0x77B57A4E+238]
 
 2022-04-04 22:42:30,920 excel_read.py INFO run 现在执行的步骤是quit:退出浏览器
+2022-04-15 23:22:03,157 main.py INFO <module> 正在运行test_data/test_data.xlsx
+2022-04-15 23:22:03,177 excel_read.py INFO run *********************Sheet1*******************
+2022-04-15 23:22:03,177 excel_read.py INFO run 现在执行的步骤是open_browser:创建Chrome浏览器
+2022-04-15 23:22:03,178 excel_read.py INFO run 运行异常：__init__() takes 2 positional arguments but 3 were given
+2022-04-15 23:22:03,178 main.py INFO <module> 正在运行test_data/test_data2.xlsx
+2022-04-15 23:22:03,193 excel_read.py INFO run *********************Sheet1*******************
+2022-04-15 23:22:03,193 excel_read.py INFO run 现在执行的步骤是open_browser:创建Chrome浏览器
+2022-04-15 23:22:03,194 excel_read.py INFO run 运行异常：__init__() takes 2 positional arguments but 3 were given

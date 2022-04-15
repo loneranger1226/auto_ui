@@ -1,0 +1,19 @@
+-
+  common: &common
+    browser_type: Chrome
+    url: http://www.baidu.com
+    input:
+      name: id
+      value: kw
+    click:
+      name: id
+      value: su
+  text: 周杰伦
+-
+  common:
+    <<: *common
+  text: 蔡依林
+-
+  common:
+    <<: *common
+  text: 开发完毕
