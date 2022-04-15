@@ -9,5 +9,5 @@ if __name__ == '__main__':
         for file_name in file_name_list:
             if file_name.split(".")[-1] == "xlsx":
                 file = file_path + "/" + file_name
-                log.info("正在运行{}".format(file))
+                log.info("正在运行用例{}".format(file))
                 run(file, log)
