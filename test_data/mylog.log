@@ -1,0 +1,288 @@
+2022-04-04 22:38:48,118 main.py INFO <module> 正在运行test_data/test_data.xlsx
+2022-04-04 22:38:48,134 excel_read.py INFO run *********************Sheet1*******************
+2022-04-04 22:38:48,134 excel_read.py INFO run 现在执行的步骤是open_browser:创建Chrome浏览器
+2022-04-04 22:38:49,435 excel_read.py INFO run 现在执行的步骤是open:打开百度首页
+2022-04-04 22:38:50,753 excel_read.py INFO run 现在执行的步骤是input:输入周杰伦
+2022-04-04 22:38:50,819 excel_read.py INFO run 现在执行的步骤是click:点击搜索
+2022-04-04 22:38:51,885 excel_read.py INFO run 现在执行的步骤是assert_text:断言
+2022-04-04 22:39:01,909 keys.py ERROR assert_text 出现异常，断言失败：实际结果与预期不符：Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='header-left_1BntJ']/div"}
+  (Session info: chrome=100.0.4896.60)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00ED8BD3+2395091]
+	Ordinal0 [0x00E6ACA1+1944737]
+	Ordinal0 [0x00D5D008+839688]
+	Ordinal0 [0x00D89BFD+1022973]
+	Ordinal0 [0x00D89EBB+1023675]
+	Ordinal0 [0x00DB6A92+1206930]
+	Ordinal0 [0x00DA4C04+1133572]
+	Ordinal0 [0x00DB4D62+1199458]
+	Ordinal0 [0x00DA49D6+1133014]
+	Ordinal0 [0x00D7EF76+978806]
+	Ordinal0 [0x00D7FE86+982662]
+	GetHandleVerifier [0x0108C912+1719138]
+	GetHandleVerifier [0x0113B2CD+2434333]
+	GetHandleVerifier [0x00F74001+569937]
+	GetHandleVerifier [0x00F73066+565942]
+	Ordinal0 [0x00E7265B+1975899]
+	Ordinal0 [0x00E772A8+1995432]
+	Ordinal0 [0x00E77395+1995669]
+	Ordinal0 [0x00E802F1+2032369]
+	BaseThreadInitThunk [0x7646FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77B57A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77B57A4E+238]
+Traceback (most recent call last):
+  File "D:\AutoUi_demo\web_keys\keys.py", line 48, in assert_text
+    text = self.locate(name, value).text
+  File "D:\AutoUi_demo\web_keys\keys.py", line 35, in locate
+    return self.driver.find_element(name, value)
+  File "C:\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1248, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='header-left_1BntJ']/div"}
+  (Session info: chrome=100.0.4896.60)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00ED8BD3+2395091]
+	Ordinal0 [0x00E6ACA1+1944737]
+	Ordinal0 [0x00D5D008+839688]
+	Ordinal0 [0x00D89BFD+1022973]
+	Ordinal0 [0x00D89EBB+1023675]
+	Ordinal0 [0x00DB6A92+1206930]
+	Ordinal0 [0x00DA4C04+1133572]
+	Ordinal0 [0x00DB4D62+1199458]
+	Ordinal0 [0x00DA49D6+1133014]
+	Ordinal0 [0x00D7EF76+978806]
+	Ordinal0 [0x00D7FE86+982662]
+	GetHandleVerifier [0x0108C912+1719138]
+	GetHandleVerifier [0x0113B2CD+2434333]
+	GetHandleVerifier [0x00F74001+569937]
+	GetHandleVerifier [0x00F73066+565942]
+	Ordinal0 [0x00E7265B+1975899]
+	Ordinal0 [0x00E772A8+1995432]
+	Ordinal0 [0x00E77395+1995669]
+	Ordinal0 [0x00E802F1+2032369]
+	BaseThreadInitThunk [0x7646FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77B57A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77B57A4E+238]
+
+2022-04-04 22:39:01,948 excel_read.py INFO run 现在执行的步骤是quit:退出浏览器
+2022-04-04 22:39:04,102 main.py INFO <module> 正在运行test_data/test_data2.xlsx
+2022-04-04 22:39:04,127 excel_read.py INFO run *********************Sheet1*******************
+2022-04-04 22:39:04,127 excel_read.py INFO run 现在执行的步骤是open_browser:创建Chrome浏览器
+2022-04-04 22:39:05,392 excel_read.py INFO run 现在执行的步骤是open:打开淘宝首页
+2022-04-04 22:39:06,821 excel_read.py INFO run 现在执行的步骤是input:输入帅气男装
+2022-04-04 22:39:06,863 excel_read.py INFO run 现在执行的步骤是click:点击搜索
+2022-04-04 22:39:09,221 excel_read.py INFO run 现在执行的步骤是assert_text:断言
+2022-04-04 22:39:19,265 keys.py ERROR assert_text 出现异常，断言失败：实际结果与预期不符：Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),"男装")]"}
+  (Session info: chrome=100.0.4896.60)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00ED8BD3+2395091]
+	Ordinal0 [0x00E6ACA1+1944737]
+	Ordinal0 [0x00D5D008+839688]
+	Ordinal0 [0x00D89BFD+1022973]
+	Ordinal0 [0x00D89EBB+1023675]
+	Ordinal0 [0x00DB6A92+1206930]
+	Ordinal0 [0x00DA4C04+1133572]
+	Ordinal0 [0x00DB4D62+1199458]
+	Ordinal0 [0x00DA49D6+1133014]
+	Ordinal0 [0x00D7EF76+978806]
+	Ordinal0 [0x00D7FE86+982662]
+	GetHandleVerifier [0x0108C912+1719138]
+	GetHandleVerifier [0x0113B2CD+2434333]
+	GetHandleVerifier [0x00F74001+569937]
+	GetHandleVerifier [0x00F73066+565942]
+	Ordinal0 [0x00E7265B+1975899]
+	Ordinal0 [0x00E772A8+1995432]
+	Ordinal0 [0x00E77395+1995669]
+	Ordinal0 [0x00E802F1+2032369]
+	BaseThreadInitThunk [0x7646FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77B57A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77B57A4E+238]
+Traceback (most recent call last):
+  File "D:\AutoUi_demo\web_keys\keys.py", line 48, in assert_text
+    text = self.locate(name, value).text
+  File "D:\AutoUi_demo\web_keys\keys.py", line 35, in locate
+    return self.driver.find_element(name, value)
+  File "C:\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1248, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),"男装")]"}
+  (Session info: chrome=100.0.4896.60)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00ED8BD3+2395091]
+	Ordinal0 [0x00E6ACA1+1944737]
+	Ordinal0 [0x00D5D008+839688]
+	Ordinal0 [0x00D89BFD+1022973]
+	Ordinal0 [0x00D89EBB+1023675]
+	Ordinal0 [0x00DB6A92+1206930]
+	Ordinal0 [0x00DA4C04+1133572]
+	Ordinal0 [0x00DB4D62+1199458]
+	Ordinal0 [0x00DA49D6+1133014]
+	Ordinal0 [0x00D7EF76+978806]
+	Ordinal0 [0x00D7FE86+982662]
+	GetHandleVerifier [0x0108C912+1719138]
+	GetHandleVerifier [0x0113B2CD+2434333]
+	GetHandleVerifier [0x00F74001+569937]
+	GetHandleVerifier [0x00F73066+565942]
+	Ordinal0 [0x00E7265B+1975899]
+	Ordinal0 [0x00E772A8+1995432]
+	Ordinal0 [0x00E77395+1995669]
+	Ordinal0 [0x00E802F1+2032369]
+	BaseThreadInitThunk [0x7646FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77B57A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77B57A4E+238]
+
+2022-04-04 22:39:19,282 excel_read.py INFO run 现在执行的步骤是quit:退出浏览器
+2022-04-04 22:41:59,033 main.py INFO <module> 正在运行test_data/test_data.xlsx
+2022-04-04 22:41:59,050 excel_read.py INFO run *********************Sheet1*******************
+2022-04-04 22:41:59,050 excel_read.py INFO run 现在执行的步骤是open_browser:创建Chrome浏览器
+2022-04-04 22:42:00,370 excel_read.py INFO run 现在执行的步骤是open:打开百度首页
+2022-04-04 22:42:01,694 excel_read.py INFO run 现在执行的步骤是input:输入周杰伦
+2022-04-04 22:42:01,764 excel_read.py INFO run 现在执行的步骤是click:点击搜索
+2022-04-04 22:42:02,842 excel_read.py INFO run 现在执行的步骤是assert_text:断言
+2022-04-04 22:42:12,884 keys.py ERROR assert_text 出现异常，断言失败：实际结果与预期不符：Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='header-left_1BntJ']/div"}
+  (Session info: chrome=100.0.4896.60)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00ED8BD3+2395091]
+	Ordinal0 [0x00E6ACA1+1944737]
+	Ordinal0 [0x00D5D008+839688]
+	Ordinal0 [0x00D89BFD+1022973]
+	Ordinal0 [0x00D89EBB+1023675]
+	Ordinal0 [0x00DB6A92+1206930]
+	Ordinal0 [0x00DA4C04+1133572]
+	Ordinal0 [0x00DB4D62+1199458]
+	Ordinal0 [0x00DA49D6+1133014]
+	Ordinal0 [0x00D7EF76+978806]
+	Ordinal0 [0x00D7FE86+982662]
+	GetHandleVerifier [0x0108C912+1719138]
+	GetHandleVerifier [0x0113B2CD+2434333]
+	GetHandleVerifier [0x00F74001+569937]
+	GetHandleVerifier [0x00F73066+565942]
+	Ordinal0 [0x00E7265B+1975899]
+	Ordinal0 [0x00E772A8+1995432]
+	Ordinal0 [0x00E77395+1995669]
+	Ordinal0 [0x00E802F1+2032369]
+	BaseThreadInitThunk [0x7646FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77B57A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77B57A4E+238]
+Traceback (most recent call last):
+  File "D:\AutoUi_demo\web_keys\keys.py", line 48, in assert_text
+    text = self.locate(name, value).text
+  File "D:\AutoUi_demo\web_keys\keys.py", line 35, in locate
+    return self.driver.find_element(name, value)
+  File "C:\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1248, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='header-left_1BntJ']/div"}
+  (Session info: chrome=100.0.4896.60)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00ED8BD3+2395091]
+	Ordinal0 [0x00E6ACA1+1944737]
+	Ordinal0 [0x00D5D008+839688]
+	Ordinal0 [0x00D89BFD+1022973]
+	Ordinal0 [0x00D89EBB+1023675]
+	Ordinal0 [0x00DB6A92+1206930]
+	Ordinal0 [0x00DA4C04+1133572]
+	Ordinal0 [0x00DB4D62+1199458]
+	Ordinal0 [0x00DA49D6+1133014]
+	Ordinal0 [0x00D7EF76+978806]
+	Ordinal0 [0x00D7FE86+982662]
+	GetHandleVerifier [0x0108C912+1719138]
+	GetHandleVerifier [0x0113B2CD+2434333]
+	GetHandleVerifier [0x00F74001+569937]
+	GetHandleVerifier [0x00F73066+565942]
+	Ordinal0 [0x00E7265B+1975899]
+	Ordinal0 [0x00E772A8+1995432]
+	Ordinal0 [0x00E77395+1995669]
+	Ordinal0 [0x00E802F1+2032369]
+	BaseThreadInitThunk [0x7646FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77B57A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77B57A4E+238]
+
+2022-04-04 22:42:12,908 excel_read.py INFO run 现在执行的步骤是quit:退出浏览器
+2022-04-04 22:42:15,072 main.py INFO <module> 正在运行test_data/test_data2.xlsx
+2022-04-04 22:42:15,091 excel_read.py INFO run *********************Sheet1*******************
+2022-04-04 22:42:15,091 excel_read.py INFO run 现在执行的步骤是open_browser:创建Chrome浏览器
+2022-04-04 22:42:16,367 excel_read.py INFO run 现在执行的步骤是open:打开淘宝首页
+2022-04-04 22:42:18,627 excel_read.py INFO run 现在执行的步骤是input:输入帅气男装
+2022-04-04 22:42:18,665 excel_read.py INFO run 现在执行的步骤是click:点击搜索
+2022-04-04 22:42:20,886 excel_read.py INFO run 现在执行的步骤是assert_text:断言
+2022-04-04 22:42:30,904 keys.py ERROR assert_text 出现异常，断言失败：实际结果与预期不符：Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),"男装")]"}
+  (Session info: chrome=100.0.4896.60)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00ED8BD3+2395091]
+	Ordinal0 [0x00E6ACA1+1944737]
+	Ordinal0 [0x00D5D008+839688]
+	Ordinal0 [0x00D89BFD+1022973]
+	Ordinal0 [0x00D89EBB+1023675]
+	Ordinal0 [0x00DB6A92+1206930]
+	Ordinal0 [0x00DA4C04+1133572]
+	Ordinal0 [0x00DB4D62+1199458]
+	Ordinal0 [0x00DA49D6+1133014]
+	Ordinal0 [0x00D7EF76+978806]
+	Ordinal0 [0x00D7FE86+982662]
+	GetHandleVerifier [0x0108C912+1719138]
+	GetHandleVerifier [0x0113B2CD+2434333]
+	GetHandleVerifier [0x00F74001+569937]
+	GetHandleVerifier [0x00F73066+565942]
+	Ordinal0 [0x00E7265B+1975899]
+	Ordinal0 [0x00E772A8+1995432]
+	Ordinal0 [0x00E77395+1995669]
+	Ordinal0 [0x00E802F1+2032369]
+	BaseThreadInitThunk [0x7646FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77B57A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77B57A4E+238]
+Traceback (most recent call last):
+  File "D:\AutoUi_demo\web_keys\keys.py", line 48, in assert_text
+    text = self.locate(name, value).text
+  File "D:\AutoUi_demo\web_keys\keys.py", line 35, in locate
+    return self.driver.find_element(name, value)
+  File "C:\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1248, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),"男装")]"}
+  (Session info: chrome=100.0.4896.60)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00ED8BD3+2395091]
+	Ordinal0 [0x00E6ACA1+1944737]
+	Ordinal0 [0x00D5D008+839688]
+	Ordinal0 [0x00D89BFD+1022973]
+	Ordinal0 [0x00D89EBB+1023675]
+	Ordinal0 [0x00DB6A92+1206930]
+	Ordinal0 [0x00DA4C04+1133572]
+	Ordinal0 [0x00DB4D62+1199458]
+	Ordinal0 [0x00DA49D6+1133014]
+	Ordinal0 [0x00D7EF76+978806]
+	Ordinal0 [0x00D7FE86+982662]
+	GetHandleVerifier [0x0108C912+1719138]
+	GetHandleVerifier [0x0113B2CD+2434333]
+	GetHandleVerifier [0x00F74001+569937]
+	GetHandleVerifier [0x00F73066+565942]
+	Ordinal0 [0x00E7265B+1975899]
+	Ordinal0 [0x00E772A8+1995432]
+	Ordinal0 [0x00E77395+1995669]
+	Ordinal0 [0x00E802F1+2032369]
+	BaseThreadInitThunk [0x7646FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77B57A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77B57A4E+238]
+
+2022-04-04 22:42:30,920 excel_read.py INFO run 现在执行的步骤是quit:退出浏览器
